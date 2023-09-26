@@ -10,17 +10,19 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
-    background: #BBB;
+   
+}
+
+h1, h2, h3{
+    margin: 0;
 }
 
 .container{
     width: 1110px;
-    margin: 0 auto;
+    margin: 0px;
 }
 
 .header{
-	background-image: url(img/bg-tweet); 
     padding-top: 60px;
     background-color: blue; 
 }
@@ -33,13 +35,43 @@ body {
 }
 
 .logo{
-	margin-right: 150px;
+	margin-right: 60px;
     display: block;
-    margin: 0;
 }
 
-#logo{
-	margin-right: 50px;
+.logo li{
+	margin-right: 60px;
+}
+
+.fb{
+	width: 24px;
+}
+
+.offer-wrapper{
+    display: flex;
+    align-items: end;
+    margin-top: 0px;
+}
+.offer{
+	width: 312px;
+	margin-left: 60px;
+}
+
+.btn {
+    background: #000000;
+    border-radius: 100px;
+    color: #FFFFFF;
+    padding: 11px 35px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    display: block;
+    width: 144px;
+    transition: all 0.5s easy;
+}
+
+.btn:hover{
+    background: grey;
 }
 
 main{
@@ -53,8 +85,69 @@ article {
 }
 
 aside {
-    flex: 1;
+  flex: 1;
 }
+
+h1, h1, h3, h4{
+	margin: 0px;
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.introtext{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.watch{
+	height: 190px;
+}
+
+.digit {
+    border: 1px solid #000000;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    width: 54px;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 34px;
+    transition: all 0.5s ease;
+}
+
+.digit-item:hover .digit {
+    background: #000;
+    color: #fff
+}
+
+.digit-title {
+    font-size: 20px;
+    margin-bottom: 11px;
+}
+
+.digits {
+    margin-top: 30px;
+    display: flex;
+    width: 690px;
+}
+
+.gallery {
+  	display: flex;
+  	flex-wrap: wrap;
+}
+ 
+.gallery img {
+  cursor: pointer;
+}
+
 
 /* Enable vertical scrolling for <article> and <aside> when content exceeds the container height */
 article, aside {
