@@ -30,14 +30,16 @@ body {
 	height: 80px;
 	display: flex;
 	align-items: center;
-
-
 }
 
 .logo{
 	margin-right: 150px;
     display: block;
     margin: 0;
+}
+
+#logo{
+	margin-right: 50px;
 }
 
 main{
