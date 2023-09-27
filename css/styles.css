@@ -57,6 +57,38 @@ h1, h2, h3{
 	margin-left: 60px;
 }
 
+.offer-blog{
+	color: blue;
+	width: 312px;
+	margin-left: 0;
+}
+
+.offer-contact{
+    width: 100%;
+}
+
+.blog-introtext{
+	display: flex;
+    width: 585px;
+    justify-content: center;
+}
+
+.imgcontacts{
+	margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+}
+
+.contacts-item{
+	width: 312px;
+	margin-left: 0;
+}
+
+.bloghead{
+	margin-left: 60px;
+}
+
 .btn {
     background: #000000;
     border-radius: 100px;
@@ -74,6 +106,47 @@ h1, h2, h3{
     background: grey;
 }
 
+.btn-blog {
+    background: #000000;
+    border-radius: 100px;
+    color: #FFFFFF;
+    padding: 11px 35px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    width: 168px;
+    text-align: center;
+    transition: all 0.5s easy;
+}
+
+.btn-blog:hover{
+    background: grey;
+}
+
+.btn-contacts {
+    background: #000000;
+    border-radius: 100px;
+    color: #FFFFFF;
+    padding: 11px 35px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    width: 168px;
+    text-align: center;
+    transition: all 0.5s easy;
+}
+
+.btn-contacts:hover{
+    background: grey;
+}
+
+
+
+.imgh3{
+	margin-bottom: 20px;
+}
+
+
 main{
     display: flex;
     flex-direction: row;
@@ -90,13 +163,6 @@ aside {
 
 h1, h1, h3, h4{
 	margin: 0px;
-}
-
-h1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 80px;
 }
 
 .introtext{
@@ -138,6 +204,13 @@ h1{
     display: flex;
     width: 690px;
 }
+
+.blogs{
+	width: 700px;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .gallery {
   	display: flex;
